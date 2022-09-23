@@ -50,12 +50,28 @@ body {
 }
 
 /* --------header------- */
-/* .header .container {
-margin-left: auto;
-margin-right: auto;
-width: 1200px;
-outline: 2px solid tomato;
-} */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-navig {
+  display: flex;
+  gap: 50px;
+}
+
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+  gap: 50px;
+}
+
 .header {
   background-color: #ffffff;
 }
@@ -69,7 +85,7 @@ outline: 2px solid tomato;
   letter-spacing: 0.03em;
   color: #000000;
   margin-top: 24px;
-  margin-left: 215px;
+  margin-right: 93px;
   margin-bottom: 25px;
 }
 
@@ -147,8 +163,7 @@ outline: 2px solid tomato;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
-  /* display: flex; */
+  line-height: 1.88;  
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -179,6 +194,8 @@ main {
 .main {
   margin-top: 0;
   margin-bottom: 0;
+  display: flex;
+  gap: 30px;
 }
 
 .main-container {
@@ -206,6 +223,15 @@ main {
   margin-bottom: 0px;
 }
 /* --------foto-------- */
+.foto {
+  display: flex;
+  gap: 30px;
+}
+
+.galleri-img {
+  width: calc((100% - 60px) / 3);
+}
+
 .section-title-foto {
   font-weight: 700;
   font-size: 36px;
@@ -223,6 +249,11 @@ main {
 /* --------avatar-------- */
 .avatar {
   background-color: #f5f4fa;
+}
+
+.avatar-container {
+  display: flex;
+  gap: 30px;
 }
 
 .avatar-img {
@@ -257,7 +288,7 @@ main {
   letter-spacing: 0.03em;
   color: var(--primari-text-color);
   margin-top: 0;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 /* --------footer-------- */
@@ -275,7 +306,7 @@ footer {
   color: #ffffff;
   margin-top: 60px;
   margin-bottom: 20px;
-  margin-left: 215px;
+  /* margin-left: 215px; */
 }
 
 .footer-accent {
@@ -318,14 +349,34 @@ footer .tel:focus {
   color: #ffffff;  
 }
 
-.container-address {
+/* .container-address {
   margin-left: 215px;
-}
+} */
 /* ========portfolio======= */
 /* --------main-------- */
 .container-portfolio-main {
   margin-top: 94px;
   margin-bottom: 94px;
+}
+
+.portfolio-main-button {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.container-main-img {
+  margin-bottom: 30px;
+  
+}
+
+.main-img {
+
+}
+
+.container-title-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .portfolio .batton {
@@ -374,12 +425,22 @@ footer .tel:focus {
   color: #ffffff;
 }
 
+.main-galleri {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;  
+  justify-content: center;
+}
+
 .portfolio .section-title-img {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
+  margin-bottom: 4px;
+  margin-left: 24px;
 }
 
 .portfolio .section-text-foto {
@@ -387,4 +448,5 @@ footer .tel:focus {
   line-height: 2.25;
   letter-spacing: 0.03em;
   color: var(--primari-text-color);
+  margin-left: 24px;
 }
