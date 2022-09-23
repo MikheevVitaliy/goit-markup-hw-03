@@ -8,11 +8,18 @@
   src: url(../fonts/Roboto-Black.ttf);
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
-ul, ol {
+ul,
+ol {
   margin: 0;
   padding-left: 0;
 }
@@ -135,11 +142,11 @@ body {
 
 /* --------hero-------- */
 .hero {
-  background-color: #2f303a;    
+  background-color: #2f303a;
 }
 
-.hero {  
-  text-align: center;  
+.hero {
+  text-align: center;
 }
 
 .hero .hero-title {
@@ -163,7 +170,7 @@ body {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;  
+  line-height: 1.88;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -171,7 +178,7 @@ body {
   color: #ffffff;
   cursor: pointer;
   border-radius: 4px;
-  min-width: 216px;;  
+  min-width: 216px;
   padding: 10px 32px;
   margin-bottom: 200px;
   border: 1px solid transparent;
@@ -184,7 +191,7 @@ body {
 }
 /* --------main-------- */
 main {
-  background-color: #f5f5f5;  
+  background-color: #f5f5f5;
 }
 
 .container-title-text {
@@ -211,7 +218,7 @@ main {
   text-transform: uppercase;
   color: var(--title-text-color);
   margin-top: 0;
-  margin-bottom: 10px;  
+  margin-bottom: 10px;
 }
 
 .main-text {
@@ -240,11 +247,11 @@ main {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   margin-top: 0;
-  margin-bottom: 50px;  
+  margin-bottom: 50px;
 }
 
 .container-foto {
-  margin-bottom: 94px;   
+  margin-bottom: 94px;
 }
 /* --------avatar-------- */
 .avatar {
@@ -325,7 +332,7 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 .footer-address:hover,
@@ -346,7 +353,7 @@ footer .mailto:hover,
 footer .tel:hover,
 footer .mailto:focus,
 footer .tel:focus {
-  color: #ffffff;  
+  color: #ffffff;
 }
 
 /* .container-address {
@@ -367,11 +374,9 @@ footer .tel:focus {
 
 .container-main-img {
   margin-bottom: 30px;
-  
 }
 
 .main-img {
-
 }
 
 .container-title-text {
@@ -389,7 +394,7 @@ footer .tel:focus {
   background-color: #f5f4fa;
   color: var(--title-text-color);
   cursor: pointer;
-  border-radius: 4px;  
+  border-radius: 4px;
   border: 1px solid transparent;
   margin-bottom: 34px;
 }
@@ -429,8 +434,12 @@ footer .tel:focus {
   display: flex;
   flex-wrap: wrap;
   column-gap: 30px;
-  row-gap: 30px;  
+  row-gap: 30px;
   justify-content: center;
+}
+
+.container-title-text {
+  padding-left: 24px;
 }
 
 .portfolio .section-title-img {
@@ -440,7 +449,6 @@ footer .tel:focus {
   letter-spacing: 0.06em;
   color: var(--title-text-color);
   margin-bottom: 4px;
-  margin-left: 24px;
 }
 
 .portfolio .section-text-foto {
@@ -448,5 +456,4 @@ footer .tel:focus {
   line-height: 2.25;
   letter-spacing: 0.03em;
   color: var(--primari-text-color);
-  margin-left: 24px;
 }
