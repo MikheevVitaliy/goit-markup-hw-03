@@ -61,6 +61,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-nav {
@@ -69,15 +71,11 @@ body {
 }
 
 .header-navig {
-  padding-top: 32px;
-  padding-bottom: 32px;
   display: flex;
   gap: 50px;
 }
 
 .header-contacts {
-  padding-top: 32px;
-  padding-bottom: 32px;
   display: flex;
   margin-left: auto;
   gap: 50px;
@@ -95,8 +93,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
-  padding-top: 24px;
-  padding-bottom: 25px;
+
   margin-right: 93px;
 }
 
@@ -203,16 +200,17 @@ main {
   padding: 0;
 }
 
+.main-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #f5f5f5;
+}
+
 .main {
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
   gap: 30px;
-}
-
-.main-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .main-title {
@@ -235,6 +233,11 @@ main {
   margin-bottom: 0px;
 }
 /* --------foto-------- */
+.section {
+  padding-bottom: 94px;
+  background-color: #f5f5f5;
+}
+
 .foto {
   display: flex;
   gap: 30px;
@@ -255,11 +258,10 @@ main {
   margin-bottom: 50px;
 }
 
-.container-foto {
-  padding-bottom: 94px;
-}
 /* --------avatar-------- */
-.avatar {
+.section-avatar {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: #f5f4fa;
 }
 
@@ -272,8 +274,9 @@ main {
   padding-top: 94px;
 }
 
-.avatar-img {
-}
+/* .avatar-img {
+  display: block;
+} */
 
 .avatar-name-desc {
   padding-top: 30px;
@@ -313,9 +316,6 @@ main {
 /* --------footer-------- */
 footer {
   background-color: #2f303a;
-}
-
-.footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -330,14 +330,13 @@ footer {
   color: #ffffff;
 }
 
-.container-address {
+.section-address {
   padding-top: 20px;
 }
 
-.footer .footer-address,
-.footer .footer-mailto {
+.footer-address,
+.footer-mailto {
   margin-bottom: 9px;
-  padding: 0;
 }
 
 .footer-accent {
@@ -380,11 +379,14 @@ footer {
   color: #ffffff;
 }
 /* ========portfolio======= */
+/* --------header-------- */
+.portfolio > .header {
+  border-bottom: 1px solid #ececec;
+}
+
 /* --------main-------- */
 main.portfolio {
   background-color: #ffffff;
-}
-.container-portfolio-main {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -393,19 +395,21 @@ main.portfolio {
   display: flex;
   gap: 8px;
   justify-content: center;
-  margin-bottom: 50px;
 }
 
-/* .container-main-img {
-  margin-bottom: 30px;
-} */
+.section-galleri {
+  padding-top: 50px;
+}
 
-/* .main-img {
-} */
+.portfolio-img {
+  display: block;
+}
 
-.portfolio-title-text {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.galleri-title-text {
+  padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
 .portfolio .batton {
@@ -420,7 +424,6 @@ main.portfolio {
   cursor: pointer;
   border-radius: 4px;
   border: 1px solid transparent;
-  margin-bottom: 34px;
 }
 
 .portfolio .batton.all {
@@ -460,14 +463,6 @@ main.portfolio {
   column-gap: 30px;
   row-gap: 30px;
   justify-content: center;
-}
-
-.container-main-img {
-  outline: 1px solid #eeeeee;
-}
-
-.container-title-text {
-  padding-left: 24px;
 }
 
 .portfolio .section-title-img {
