@@ -57,12 +57,16 @@ body {
 }
 
 /* --------header------- */
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 25px;
+
 }
 
 .header-nav {
@@ -334,8 +338,7 @@ footer {
   padding-top: 20px;
 }
 
-.footer-address,
-.footer-mailto {
+.address-row {
   margin-bottom: 9px;
 }
 
@@ -397,8 +400,8 @@ main.portfolio {
   justify-content: center;
 }
 
-.section-galleri {
-  padding-top: 50px;
+.section-batton {
+  margin-bottom: 50px;
 }
 
 .portfolio-img {
